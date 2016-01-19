@@ -2,3 +2,56 @@
 ============================================================
 ============================================================*/
 
+body{
+    font-size: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #30353C;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 64px;
+    font-family: 'Roboto Slab', serif;
+}
+
+article img{
+    border-radius: 60%;
+    padding: 45px;
+}
+
+p{
+    color: #30353C;
+    font-family: 'Roboto 700', sans-serif;
+    font-size: 1.2em;
+}
+
+article p{
+    text-align: center;
+}
+
+article{
+    margin:44px;
+}
+
+
+
+article:nth-child(1){
+    float: left;
+    width: 320px;
+}
+
+article:nth-child(2){
+    width: 320px;
+    float: left;
+}
+
+article:nth-child(3){
+    width: 320px;
+    float: left;
+}
+
+section{
+    overflow: hidden;
+}
