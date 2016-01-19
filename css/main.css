@@ -1,0 +1,71 @@
+/* Project CSS 
+============================================================
+============================================================*/
+body{
+    background: url('../images/footer_lodyas.png') fixed;
+    font-family: 'Alegreya Sans SC', sans-serif; 
+}
+
+
+
+.wrapper{
+    margin: 0 auto;
+    width: 960px;
+    background-color: rgba(121, 186, 199, .3);
+}
+
+h1{
+    font-size: 60px;
+    padding: 10px;
+    background: #11102E;
+    color: #eee;
+}
+
+h2{
+    font-size: 45px;
+    padding: 5px;
+    border-bottom: 2px solid #11102E;
+}
+
+h3{
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+h4{
+    padding: 10px;  
+    font-size: 20px;
+}
+
+p{
+  font-size: 14px;
+}
+
+/* HEADER=============*/
+
+.about p, .about h2{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/* COMPONENTS ============================== */
+
+article{
+    background: #C7C2C5;
+    width: 870px;
+    margin: 30px;
+}
+
+article p{
+    padding: 5px;
+}
+
+ol{
+    padding: 10px 25px;
+}
