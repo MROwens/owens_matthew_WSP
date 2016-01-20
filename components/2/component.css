@@ -2,3 +2,41 @@
 ============================================================
 ============================================================*/
 
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ccc;
+}
+
+nav ul li{
+    text-transform: capitalize;
+}
+
+a{
+    color: black;
+}
+
+nav ul ul{
+    display: none;
+}
+
+nav ul li:hover{
+    color: #EE4835;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul{
+    padding: 0 20px;
+    list-style-type: none;
+    position: relative;
+    display: inline-table;
+}
+
+nav ul:after{
+    content:"";
+    clear: both;
+    display: block;
+}
