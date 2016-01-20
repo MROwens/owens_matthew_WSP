@@ -35,23 +35,11 @@ article{
     margin:44px;
 }
 
-
-
-article:nth-child(1){
+article{
     float: left;
     width: 320px;
 }
 
-article:nth-child(2){
-    width: 320px;
-    float: left;
-}
-
-article:nth-child(3){
-    width: 320px;
-    float: left;
-}
-
-section{
-    overflow: hidden;
+section:after{
+    clear: left;
 }
