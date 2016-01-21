@@ -5,22 +5,28 @@
 body{
     max-width: 960px;
     margin: 0 auto;
-    background: #ccc;
 }
 
 nav ul li{
     text-transform: capitalize;
+    float: left;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 a{
     color: black;
 }
 
+nav ul li a{
+    display: block;
+    padding: 5px 15px;
+}
+
 nav ul ul{
     display: none;
 }
 
-nav ul li:hover{
+nav ul li a:hover{
     color: #EE4835;
 }
 
@@ -39,4 +45,34 @@ nav ul:after{
     content:"";
     clear: both;
     display: block;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 100%;
+}
+
+nav ul li:nth-child(1){
+   color: #BBBBBB; 
+}
+
+nav ul li:nth-child(2){
+    margin-bottom: 25px;
+}
+
+nav ul ul li:nth-child(2){
+    margin-bottom: 0px;
+}
+
+nav ul ul li{
+    float: none;
+    position: relative;
+    background: #F1F1F1;
+    border-bottom: 2px solid #FFF;
+    text-align: center;
+}
+
+nav ul ul li a{
+    padding: 5px 23px;
+    line-height: 50px;
 }
